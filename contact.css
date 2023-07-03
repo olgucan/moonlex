@@ -1,0 +1,84 @@
+header {
+    padding: 0;
+    width: 100%;
+    background: url("./productimages/contact1.png");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+ 
+    
+}
+.cs-contact-header {
+    background-color: #BED9E8;
+    box-sizing: border-box;
+    
+}
+.cs-contact-flex {
+    transform: translateY(70%);
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.cs-contact-flex h2 {
+    font-size: 46px;
+}
+.cs-icon-container {
+     display: flex;
+     align-items: center;
+     margin-bottom: 15px;
+}
+.cs-icon-container > div {margin-right: 15px;}
+.cs-icon-container i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #3593FF;
+    color: white;
+
+}
+.cs-input-flex-con {
+    display: flex;
+    flex-direction: column;
+
+}
+.cs-input-flex-con input , textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    box-shadow: rgb(47, 140, 255,.6) 0px 5px 15px;
+}
+.cs-input-flex-con input::placeholder , textarea::placeholder {
+   color: #BED9E8;
+}
+.email-h4 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:700px){
+    .cs-contact-flex {
+        transform: translateY(40%);
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+    .cs-contact-flex h2 {
+        font-size: 36px;
+    }
+   
+}
+@media screen and (max-width:500px){
+    .cs-contact-flex h2 {
+        font-size: 26px;
+    }
+    .cs-contact-flex {
+        transform: translateY(30%);
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+    .cs-contact-flex i {
+        font-size: 12px;
+    }
+}

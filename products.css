@@ -1,0 +1,187 @@
+
+header {
+    padding-top: 0;
+}
+.csmoon-bg {
+    background: url("./productimages/Baner1.jpeg");
+    height: 400px;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    border-left: 30px solid #37DFFF;
+    box-shadow: -40px 0px 0px 0px rgb(14 225 244 / 33%);
+
+
+   
+    
+}
+.cs-ffp2-bg {
+  background: url("./productimages/Masks-with-box-FFP2-2-700x700.jpg");
+    height: 95vh;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border-bottom-left-radius: 50%;
+    border-left: 30px solid #37DFFF;
+    box-shadow: -40px 0px 0px 0px rgb(14 225 244 / 33%);
+}
+
+.cs-product-button:hover {
+     background-color: #48D14C;
+}
+.cs-accordion {
+    background-color: #80D0F4;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .cs-accordion.product-button {
+    background-color: #B8E9EC;
+    border-radius: 7px;
+    box-shadow: none;
+    font-size: 20px;
+    color: #777;
+  }
+  .cs-product-list li {
+          line-height: 30px;
+  }
+  
+  .cs-active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .cs-accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .cs-accordion.product-button::after {
+    color: blue;
+    content: '\002B';
+    
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  .cs-accordion.product-button.cs-active::after {
+    color: blue;
+    content: "\2212";
+    
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .cs-active:after {
+    content: "\2212";
+  }
+  .cs-accordion.cs-active + .cs-panel {
+    padding-top: 25px;
+  }
+  
+  .cs-panel {
+    padding: 0px 18px;
+    background-color: #80D0F4;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+  }
+  .cs-panel.product-button {
+    background-color: #B8E9EC;
+    border-radius: 7px;
+    color:#777;
+    
+  }
+  
+  .cs-product-icons {
+    height: 100px;
+  }
+  .cs-offer-h2 {
+    font-size: 30px;
+    color: #444;
+  }
+  .cs-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  video {
+   
+    border-radius: 20px;
+    width: 40%;
+    margin: 100px auto;
+  }
+  .cs-product-rounded-bg {
+    background: url("./productimages2/blond-girl.png");
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 460px;
+   /* border-top-left-radius: 0%;*/
+    border-bottom-left-radius: 50%;
+    /* box-shadow: -25px 0px 0px #2F8CFF; */
+    border-left: 25px solid #2f8cff;
+    border-top-left-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .cs-product-rounded-bg2 {
+    background: url("./productimages2/blond-girl-2-e1659961781585.png");
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 460px;
+   /* border-top-left-radius: 0%;*/
+    border-bottom-left-radius: 50%;
+    /* box-shadow: -25px 0px 0px #2F8CFF; */
+    border-left: 25px solid #2f8cff;
+    border-top-left-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+  .cs-product-rounded-bg3 {
+    background: url("./productimages2/MOONLEX-MM2-S-4-e1659962330348.png");
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 460px;
+   /* border-top-left-radius: 0%;*/
+    border-bottom-left-radius: 50%;
+    /* box-shadow: -25px 0px 0px #2F8CFF; */
+    border-left: 25px solid #2f8cff;
+    border-top-left-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+
+
+  @media screen and (max-width:500px){
+    video {
+      width: 80%;
+    }
+    .cs-ffp2-bg {
+      height: 400px;
+    }
+    .cs-product-list li {
+      line-height: 30px;
+      font-size: 14px;
+}
+  }
